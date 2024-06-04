@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ShortestPath}",
+            "name": "Debug ShortestPath",
+            "program": "${workspaceFolder:ShortestPath}/.build/debug/ShortestPath",
+            "preLaunchTask": "swift: Build Debug ShortestPath"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ShortestPath}",
+            "name": "Release ShortestPath",
+            "program": "${workspaceFolder:ShortestPath}/.build/release/ShortestPath",
+            "preLaunchTask": "swift: Build Release ShortestPath"
+        }
+    ]
+}
